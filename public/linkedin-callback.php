@@ -1,7 +1,7 @@
 <?php
 $client_id = '78gc6x52m62941';
 $client_secret = 'WPL_AP1.3sEjhyrnzrerluMN.4Y02tQ==';
-$redirect_uri = 'http://localhost:8000/linkedin-callback.php';
+$redirect_uri = 'https://linkedin-crowler.updatemedaily.com/linkedin-callback';
 
 if (isset($_GET['code'])) {
     $code = $_GET['code'];
